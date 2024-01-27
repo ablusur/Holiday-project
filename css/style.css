@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* background-color: red; */
+  width: 100%;
+  padding: 15px 0;
+  position: absolute;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.main .logo {
+}
+.menu {
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li {
+}
+.menu ul li a {
+  padding: 0 30px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.menu ul li a:hover {
+  color: black;
+}
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+
+/* baanner section start */
+/* .banner img{
+    width:100%;
+    
+} */
+#banner {
+  background: url(../images/bakgroung-img.png) no-repeat center/cover;
+  padding: 300px 0;
+}
+.banner img {
+}
+.banner-text {
+}
+.banner-text h4 {
+  color: #ffc178;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner-text h1 {
+  color: white;
+  font-size: 80px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 100px;
+}
+.banner-text h2 {
+  color: white;
+  font-size: 70px;
+  font-family: "Open Sans, sans-serif";
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 100px;
+}
+/* baanner section end */
+
+/* Holiday section start */
+#holiday {
+  background-color: black;
+  padding: 100px 0 200px 0;
+}
+.holiday-main {
+  display: flex;
+  justify-content: space-between;
+}
+.holiday-img {
+  width: 40%;
+}
+.holiday-img img {
+  width: 100%;
+}
+.holiday-text {
+  width: 45%;
+}
+.holiday-text h4 {
+  color: #fbd784;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+}
+.holiday-text h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+}
+.holiday-text p {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  line-height: 26px;
+}
+.holiday-text a {
+  color: #fbd784;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+}
+/* Holiday section end */
+
+/* Hill climb start */
+#background {
+  background-color: black;
+}
+#hill {
+  background: url(../images/hill-img.jpg) no-repeat center/cover;
+  padding: 300px 0 100px 50px;
+}
+
+.hill-text {
+  text-align: center;
+}
+.hill-text h4 {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.hill-text h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.hill-text p {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 213.333% */
+  text-transform: uppercase;
+}
+.hill-text h5 {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/* Hill climb end */
+
+/* people section start */
+#people {
+  background-color: black;
+  padding: 70px 0 100px 0;
+}
+.people-main {
+  display: flex;
+  justify-content: space-around;
+}
+.people-text {
+  width: 45%;
+}
+.people-text h4 {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding-top: 300px;
+}
+.people-text h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+}
+.people-text p {
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 18px;
+  padding-bottom: 25px;
+  letter-spacing: normal;
+}
+.people-text h5 {
+  color: #fbd784;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.people-img {
+  width: 45%;
+  padding-top: 100px;
+}
+.people-img img {
+  width: 100%;
+}
+/* people section end */
+
+/* Footer section start */
+
+#footer {
+  background-color: black;
+  padding: 100px 0 100px 0;
+}
+
+.footer-main {
+}
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+}
+.footer-text {
+  display: flex;
+  /* padding-left: 40px; */
+}
+.footer-text p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 10px;
+}
+.footer-text a {
+  margin-top: -10px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Open Sans";
+
+}
+.btn {
+  background-color: #ffa343;
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+
+.footer-2 {
+}
+.footer-text-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.footer-text-2 {
+  width: 45%;
+}
+.footer-text-2 h3 {
+  color: white;
+}
+.footr-manulist {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+.footer-service {
+}
+.aa {
+  font-size: 22px;
+  width: 700;
+}
+
+.footer-service ul {
+  list-style: none;
+}
+.footer-service ul li {
+  color: #fbd784;
+  padding-bottom: 10px;
+}
+.footer-service ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-service {
+}
+.footer-about ul {
+  list-style: none;
+}
+.footer-about ul li {
+  padding-bottom: 10px;
+  color: #fbd784;
+}
+.footer-about ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-help {
+}
+.footer-help ul {
+  list-style: none;
+}
+.footer-help ul li {
+  color: #fbd784;
+  padding-bottom: 10px;
+}
+.footer-help ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* Footer section end */
+
+/* social section start */
+.social-footer {
+}
+.social-text {
+}
+.social-text p {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.social-icon {
+}
+.social-icon ul {
+  display: flex;
+}
+.social-icon ul li {
+  padding: 20px 0;
+}
+.social-icon ul li a {
+  margin-right: 15px;
+  color: white;
+}
+.copy p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Open Sans";
+  padding-top: 150px;
+}
+/* social section end */
